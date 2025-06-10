@@ -64,3 +64,9 @@ npm run preview
 ```bash
 npm run format
 ```
+
+### Запустить релиз
+
+```bash
+npm run release
+```
