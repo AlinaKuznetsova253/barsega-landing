@@ -1,3 +1,7 @@
 :root {
-  --labels-primary-color: #1c1c1c;
+  --labels-primary-color: #242a29;
+  --accent-color: #149c88;
+  --ivory-color: #e0dfcb;
+  --accent-secondary-color: #a7d5be;
+  --white-color: #fff;
 }

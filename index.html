@@ -8,29 +8,87 @@
     <link rel="stylesheet" href="/src/css/index.css" />
   </head>
   <body>
-    <div id="app">
-      <section class="hero">
-        <h1>Hello world!</h1>
-        <div style="width: 1000px; height: 1000px">
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="swiper-slide-content"><p>qwerty 1</p></div>
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link text-underline-animation" href="#"
+                  >Главная</a
+                >
+              </li>
+              <li class="menu__item">
+                <a class="menu__link text-underline-animation" href="#"
+                  >Услуги</a
+                >
+              </li>
+              <li class="menu__item">
+                <a class="menu__link text-underline-animation" href="#"
+                  >О себе</a
+                >
+              </li>
+              <li class="menu__item">
+                <a class="menu__link text-underline-animation" href="#"
+                  >Кейсы</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <a class="logo" href="#">
+            <img class="logo-img" src="src/images/logo.svg" alt="logo" />
+          </a>
+          <div class="contacts">
+            <div class="phone-info">
+              <a class="phone-img" href="#">
+                <img src="src/images/call.svg" alt="Телефон" />
+              </a>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info__item">
+                <a
+                  class="phone text-underline-animation"
+                  href="tel:+7(978)156-35-62"
+                  >+7(978)156-35-62</a
+                >
+                <p class="contact-info__text">
+                  Вы можете легко связаться с нами<br />
+                  и погрузиться в наш вайб)
+                </p>
+                <img class="arrow" src="src/images/arrow.svg" alt="Стрелка" />
               </div>
-              <div class="swiper-slide">
-                <div class="swiper-slide-content"><p>qwerty 2</p></div>
-              </div>
-              <div class="swiper-slide">
-                <div class="swiper-slide-content"><h1>qwerty 3</h1></div>
+              <div class="contact-icons">
+                <div class="contact-icons__item">
+                  <a class="icon" href="#">
+                    <img src="src/images/instagram.svg" alt="Instagram" />
+                  </a>
+                  <a class="icon" href="#">
+                    <img src="src/images/whatsapp.svg" alt="Whatsapp" />
+                  </a>
+                  <a class="icon" href="#">
+                    <img src="src/images/telegram.svg" alt="Telegram" />
+                  </a>
+                </div>
+                <div class="contact-icons__theme">
+                  <button
+                    id="theme-toggle"
+                    class="theme-button"
+                    aria-label="Переключить тему"
+                  >
+                    <img
+                      id="theme-icon"
+                      src="src/images/white.svg"
+                      alt="Сменить тему"
+                    />
+                  </button>
+                </div>
               </div>
             </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </header>
+
     <script type="module" src="/src/js/index.js"></script>
   </body>
 </html>
