@@ -1,0 +1,71 @@
+.why-him__content {
+  margin-top: 150px;
+  display: flex;
+  gap: 0 20px;
+}
+
+.why-him__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.why-him__title {
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+.why-him__title span {
+  display: inline-block;
+  margin-left: 415px;
+}
+
+.why-him-img {
+  position: absolute;
+  transform: translateX(175%) translateY(55%);
+}
+
+.why-him-text-1 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.why-him-text-2 {
+  padding-right: 20px;
+}
+
+.why-him__image-text {
+  display: flex;
+}
+
+.why-him-text-2,
+.why-him-text-3 {
+  line-height: 22px;
+  padding-top: 20px;
+}
+
+.why-him__img-1,
+.why-him__img-2,
+.why-him__img-3 {
+  border-radius: 20px;
+}
+
+.why-him__img-1 {
+  max-width: 382px;
+  max-height: 199px;
+}
+
+.why-him__img-2 {
+  max-width: 481px;
+  max-height: 342px;
+}
+
+.why-him__img-3 {
+  max-width: 308px;
+  max-height: 477px;
+}

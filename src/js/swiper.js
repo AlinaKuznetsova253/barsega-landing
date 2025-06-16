@@ -5,7 +5,7 @@ import "swiper/swiper-bundle.css";
 document.addEventListener("DOMContentLoaded", () => {
   const swiper = new Swiper(".swiper", {
     loop: true,
-    slidesPerView: 5,
+    slidesPerView: 4.5,
     spaceBetween: 0,
     navigation: {
       nextEl: ".swiper-button-right",
