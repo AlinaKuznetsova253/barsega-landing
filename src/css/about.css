@@ -4,6 +4,7 @@
   margin-top: 150px;
   font-size: 48px;
   font-weight: 400;
+  color: var(--text-color-secondary);
 }
 
 .about__slides {
@@ -57,8 +58,8 @@
   text-transform: uppercase;
   padding: 15px 30px;
   transition:
-    box-shadow 0.3s ease,
-    color 0.3s ease;
+    box-shadow 0.1s ease,
+    color 0.1s ease;
 }
 
 .about__info-btn:hover {
@@ -70,7 +71,7 @@
 }
 
 .about__info-btn:active {
-  box-shadow: 0 0 3px 3px rgba(100, 100, 100, 0.2) inset;
+  box-shadow: 0 0 5px 5px rgba(70, 70, 70, 0.2) inset;
 }
 
 .about__slide {

@@ -12,12 +12,13 @@
 }
 
 .why-him__title {
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 400;
   text-align: center;
   position: relative;
   margin-bottom: 30px;
   max-width: 100%;
+  color: var(--text-color-secondary);
 }
 
 .why-him__title span {
@@ -27,7 +28,7 @@
 
 .why-him-img {
   position: absolute;
-  transform: translateX(175%) translateY(55%);
+  transform: translateX(185%) translateY(65%);
 }
 
 .why-him-text-1 {
