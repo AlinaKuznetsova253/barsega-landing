@@ -5,6 +5,7 @@
 @import "./team.css";
 @import "./gallery.css";
 @import "./about.css";
+@import "./quote.css";
 
 body {
   font-size: 16px;
