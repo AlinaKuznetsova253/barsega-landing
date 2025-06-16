@@ -1,5 +1,4 @@
 .header__content {
-  /* padding-top: 30px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +51,7 @@
 .contact-info {
   display: flex;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .contact-info__item {
@@ -65,8 +64,10 @@
 .phone {
   color: var(--accent-color);
   font-size: 20px;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-family: var(--second-font);
 }
 
 .contact-info__text {
@@ -78,8 +79,8 @@
   position: absolute;
   top: 50%;
   left: 80%;
-  transform: translateX(-20%) rotate(-2deg);
-  width: 144px;
+  transform: translateX(-20%) rotate(1deg);
+  width: 145px;
   height: auto;
   margin-top: 4px;
   pointer-events: none;
@@ -94,11 +95,20 @@
 .contact-icons__theme {
   display: flex;
   justify-content: flex-end;
-  padding-top: 20px;
+  padding-top: 15px;
+  height: 45px;
 }
 
-.theme-button {
+.toggle-theme {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-right: 5px;
   background: transparent;
+  background-image: var(--toggle-bg);
+  background-repeat: no-repeat;
+  background-size: contain;
   border: none;
   cursor: pointer;
+  position: absolute;
 }

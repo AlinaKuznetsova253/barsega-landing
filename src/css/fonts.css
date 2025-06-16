@@ -1,5 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap");
 
+@font-face {
+  font-family: "Evolventa", sans-serif;
+  src: url("/src/fonts/Evolventa-Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: 700;
+}
+
+@font-face {
+  font-family: "Evolventa", sans-serif;
+  src: url("/src/fonts/Evolventa-BoldOblique.otf") format("otf");
+  font-weight: bold oblique;
+  font-style: 700;
+}
+
+@font-face {
+  font-family: "Evolventa", sans-serif;
+  src: url("/src/fonts/Evolventa-Oblique.otf") format("otf");
+  font-weight: oblique;
+  font-style: 400;
+}
+
+@font-face {
+  font-family: "Evolventa", sans-serif;
+  src: url("/src/fonts/Evolventa-Regular.otf") format("otf");
+  font-weight: regular;
+  font-style: 400;
+}
+
 :root {
   --main-font: "Raleway", "Helvetica", sans-serif;
+  --second-font: "Evolventa", sans-serif;
 }

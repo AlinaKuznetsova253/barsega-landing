@@ -1,7 +1,23 @@
 :root {
-  --labels-primary-color: #242a29;
+  --main-bg: #e0dfcb;
+  --text-color: #242a29;
   --accent-color: #149c88;
-  --ivory-color: #e0dfcb;
   --accent-secondary-color: #a7d5be;
   --white-color: #fff;
+  --accent-color-size: #149c88;
+  --accent-color-border: #149c88;
+  --btn-color: #242a29;
+  --title-color: #e0dfcb;
+  --about-text: #fff;
+  --toggle-bg: url(/src/images/sun.svg);
+}
+
+:root[data-theme="dark"] {
+  --main-bg: #242a29;
+  --text-color: #fff;
+  --white-color: #149c88;
+  --accent-color-size: #242a29;
+  --accent-color-border: #e0dfcb;
+  --btn-color: #fff;
+  --toggle-bg: url(/src/images/moon.svg);
 }

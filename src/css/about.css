@@ -1,0 +1,137 @@
+.about__title-text {
+  font-family: var(--second-font);
+  text-align: center;
+  margin-top: 150px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.about__slides {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.about__info {
+  max-width: 470px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white-color);
+  padding: 30px 30px 30px 150px;
+  text-align: left;
+  border-radius: 0 20px 20px 0;
+  z-index: 2;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about__info-title {
+  font-family: var(--second-font);
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.title__text-size {
+  color: var(--accent-color-size);
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.about__info-text {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.about__info-btn {
+  background-color: transparent;
+  border: 1px solid var(--accent-color-border);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  transition:
+    box-shadow 0.3s ease,
+    color 0.3s ease;
+}
+
+.about__info-btn:hover {
+  color: var(--white-color);
+  outline: 0;
+  border: 1px solid var(--white-color);
+  background: var(--accent-secondary-color);
+  box-shadow: 0 0 40px 40px var(--accent-secondary-color) inset;
+}
+
+.about__info-btn:active {
+  box-shadow: 0 0 3px 3px rgba(100, 100, 100, 0.2) inset;
+}
+
+.about__slide {
+  gap: 0;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  margin-top: 10px;
+  transform: translateX(-1%);
+  z-index: 1;
+}
+
+.about__item {
+  max-width: 420px;
+  max-height: 569px;
+}
+
+.about__item-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.about__item-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 430px 70px 30px 30px;
+}
+
+.about__item-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+.about__item-text {
+  color: var(--about-text);
+}
+
+.about__gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, var(--main-bg));
+  pointer-events: none;
+  z-index: 2;
+}
+
+.swiper-button-right-about {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  padding: 279px 110px 279px 0;
+  z-index: 3;
+  svg {
+    fill: var(--text-color);
+    stroke: var(--text-color);
+  }
+}
