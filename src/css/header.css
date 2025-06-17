@@ -9,6 +9,12 @@
   gap: 0 70px;
 }
 
+.menu__tablet,
+.arrow-tablet,
+.menu-btn {
+  display: none;
+}
+
 .text-underline-animation {
   position: relative;
   transition: color 0.3s ease;
@@ -75,11 +81,15 @@
   font-weight: 500;
 }
 
+.contact-info__text-tablet {
+  display: none;
+}
+
 .arrow {
   position: absolute;
   top: 50%;
   left: 80%;
-  transform: translateX(-20%) rotate(1deg);
+  transform: translateX(-20%) translateY(10%) rotate(1deg);
   width: 145px;
   height: auto;
   margin-top: 4px;
@@ -111,4 +121,96 @@
   border: none;
   cursor: pointer;
   position: absolute;
+}
+
+@media (max-width: 992px) {
+  .header__content {
+    margin-top: 30px;
+  }
+  .menu,
+  .menu-btn {
+    display: none;
+  }
+  .menu__tablet {
+    display: flex;
+  }
+  .menu__list {
+    gap: 0 50px;
+  }
+  .logo-img {
+    width: 102px;
+  }
+  .phone-img {
+    margin-right: 5px;
+  }
+  .contact-info {
+    padding: 0;
+  }
+  .contact-info__item {
+    margin-right: 33px;
+  }
+  .phone {
+    font-size: 16px;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .contact-info__item {
+    position: relative;
+  }
+  .contact-info__text {
+    display: none;
+  }
+  .contact-info__text-tablet {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    width: 226px;
+    transform: translateX(1%) translateY(80%);
+  }
+  .arrow {
+    display: none;
+  }
+  .arrow-tablet {
+    display: flex;
+    position: absolute;
+    margin-top: 0;
+    transform: translateX(210%) translateY(75%);
+  }
+  .contact-icons__item {
+    gap: 10px;
+  }
+  .icon-img {
+    width: 40px;
+    height: 40px;
+  }
+  .contact-icons__theme {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__content {
+    margin-top: 20px;
+  }
+  .menu__tablet {
+    display: none;
+  }
+  .menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    min-width: 30px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+
+    /* height: calc(100vh[vh-это высота всего экрана устройства] - 72px[высота хедера]) */
+  }
+  .menu-btn span {
+    height: 2px;
+    width: 100%;
+    background-color: var(--footer-text);
+  }
 }

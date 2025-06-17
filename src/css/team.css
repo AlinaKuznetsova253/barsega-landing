@@ -119,3 +119,6 @@
   position: absolute;
   transform: translateX(130%) translateY(530%) rotate(200deg);
 }
+
+@media (max-width: 992px) {
+}

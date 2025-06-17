@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const swiperSecond = new Swiper(".swiper-second", {
     loop: true,
-    slidesPerView: 3,
+    slidesPerView: 3.5,
     spaceBetween: 0,
     navigation: {
       nextEl: ".swiper-button-right-about",

@@ -2,17 +2,20 @@
   --main-bg: #e0dfcb;
   --text-color: #242a29;
   --text-color-secondary: #242a29;
-  --accent-color: #149c88;
-  --accent-secondary-color: #a7d5be;
   --white-color: #fff;
   --accent-color-size: #149c88;
   --accent-color-border: #149c88;
   --btn-color: #242a29;
+  --toggle-bg: url(/src/images/sun.svg);
+
+  --accent-color: #149c88;
+  --accent-secondary-color: #a7d5be;
   --title-color: #e0dfcb;
   --about-text: #fff;
   --quote-btn: #e0dfcb;
   --events-title: #149c88;
-  --toggle-bg: url(/src/images/sun.svg);
+  --footer-bg: #fff;
+  --footer-text: #242a29;
 }
 
 :root[data-theme="dark"] {
