@@ -1,7 +1,6 @@
 .gallery__slide {
   position: relative;
   max-width: 100%;
-  margin-bottom: 150px;
 }
 
 .gallery__item-img {
@@ -31,5 +30,15 @@
   svg {
     fill: var(--text-color);
     stroke: var(--text-color);
+  }
+}
+
+@media (max-width: 1024px) {
+  .gallery__gradient {
+    width: 200px;
+    height: 224px;
+  }
+  .swiper-button-right {
+    padding: 98px 50px 98px;
   }
 }

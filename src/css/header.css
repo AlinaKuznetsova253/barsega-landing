@@ -123,7 +123,16 @@
   position: absolute;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
+  .menu__list {
+    gap: 0 40px;
+  }
+  .contact-info__item {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
   .header__content {
     margin-top: 30px;
   }
@@ -189,6 +198,12 @@
   }
 }
 
+@media (max-width: 860px) {
+}
+
+@media (max-width: 768px) {
+}
+
 @media (max-width: 576px) {
   .header__content {
     margin-top: 20px;
@@ -206,7 +221,9 @@
     background-color: transparent;
     border: none;
 
-    /* height: calc(100vh[vh-это высота всего экрана устройства] - 72px[высота хедера]) */
+    height: calc(
+      100vh[vh-это высота всего экрана устройства] - 72px[высота хедера]
+    );
   }
   .menu-btn span {
     height: 2px;

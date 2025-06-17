@@ -2,12 +2,53 @@
   margin-top: 50px;
 }
 
+.hero-content {
+  position: relative;
+}
+
+.hero-title-wrapper {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  mix-blend-mode: exclusion;
+}
+
+.hero-subtitle {
+  font-size: 64px;
+  color: #fff;
+}
+
+.hero-title {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  font-size: 128px;
+  color: #e0dfcb;
+  text-transform: uppercase;
+}
+
+.hero-images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-image {
+  border-radius: 20px;
+}
+
 .whatsapp-link {
   width: 100%;
   text-align: center;
+  margin-top: 10px;
 }
 
-.top-text {
+.whatsapp-link-text {
   font-size: 20px;
   font-weight: 500;
   display: inline-flex;
@@ -15,3 +56,101 @@
   align-items: center;
   cursor: pointer;
 }
+
+.hero-content-mobile {
+  display: none;
+  position: relative;
+  padding-top: 70%;
+}
+
+.hero-image-mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 16px;
+  z-index: -1;
+}
+
+.hero-title-mobile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.hero-subtitle-mobile {
+  color: white;
+  font-size: 32px;
+}
+
+.hero-title-mobile {
+  color: aqua;
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.hero-title-mobile--1 {
+  font-size: 80px;
+}
+
+.hero-title-mobile--2 {
+  font-size: 64px;
+}
+
+.hero-title-mobile--3 {
+  font-size: 42px;
+}
+
+@media (max-width: 1400px) {
+  .hero-title {
+    font-size: 100px;
+  }
+  .hero-image--1,
+  .hero-image--3 {
+    max-width: 325px;
+    max-height: 691px;
+  }
+  .hero-image--2 {
+    max-width: 348px;
+    max-height: 739px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-title {
+    font-size: 94px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-subtitle {
+    font-size: 48px;
+  }
+  .hero-title {
+    font-size: 81px;
+  }
+  .hero-image--1,
+  .hero-image--3 {
+    max-width: 272px;
+    max-height: 576px;
+  }
+  .hero-image--2 {
+    max-width: 291px;
+    max-height: 616px;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .hero-content {
+    display: none;
+  }
+  .hero-content-mobile {
+    display: block;
+  }
+} */

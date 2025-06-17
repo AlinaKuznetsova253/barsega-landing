@@ -70,3 +70,32 @@
   max-width: 308px;
   max-height: 477px;
 }
+
+@media (max-width: 1024px) {
+  .why-him__content {
+    margin-top: 100px;
+  }
+  .why-him__title {
+    font-size: 36px;
+  }
+  .why-him-img {
+    max-width: 102px;
+    max-height: 63px;
+    position: absolute;
+    transform: translateX(185%) translateY(65%);
+  }
+  .why-him__img-1 {
+    max-width: 206px;
+    max-height: 156px;
+  }
+
+  .why-him__img-2 {
+    max-width: 358px;
+    max-height: 155px;
+  }
+
+  .why-him__img-3 {
+    max-width: 320px;
+    max-height: 412px;
+  }
+}

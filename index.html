@@ -129,8 +129,56 @@
     <main class="main">
       <section class="hero">
         <div class="container">
-          <div class="whatsapp-link">
-            <a class="top-text text-underline-animation">Написать в WhatsApp</a>
+          <div class="hero-content">
+            <div class="hero-title-wrapper">
+              <p class="hero-subtitle">Праздник вашей</p>
+              <h1 class="hero-title">
+                <span class="hero-title--1">Мечты</span>
+                <span class="hero-title--1">=</span>
+                <span class="hero-title--1">реальность!</span>
+              </h1>
+            </div>
+            <div class="hero-images">
+              <img
+                src="src/images/hero-image1-1x.jpg"
+                srcset="src/images/hero-image1-2x.jpg 2x"
+                alt="photo"
+                class="hero-image hero-image--1"
+              />
+              <img
+                src="src/images/hero-image2-1x.jpg"
+                srcset="src/images/hero-image2-2x.jpg 2x"
+                alt="photo"
+                class="hero-image hero-image--2"
+              />
+              <img
+                src="src/images/hero-image3-1x.jpg"
+                srcset="src/images/hero-image3-2x.jpg 2x"
+                alt="photo"
+                class="hero-image hero-image--3"
+              />
+            </div>
+            <div class="whatsapp-link">
+              <a class="whatsapp-link-text text-underline-animation"
+                >Написать в WhatsApp</a
+              >
+            </div>
+          </div>
+          <div class="hero-content-mobile">
+            <img
+              src="src/images/hero-image-mobile-1x.jpg"
+              srcset="src/images/hero-image-mobile-2x.jpg 2x"
+              alt="photo"
+              class="hero-image-mobile"
+            />
+            <div class="hero-title-mobile-wrapper">
+              <p class="hero-subtitle-mobile">Праздник вашей</p>
+              <h1 class="hero-title-mobile">
+                <span class="hero-title-mobile--1">Мечты</span>
+                <span class="hero-title-mobile--2">=</span>
+                <span class="hero-title-mobile--3">реальность!</span>
+              </h1>
+            </div>
           </div>
         </div>
       </section>
@@ -155,9 +203,21 @@
                   на лице, но спектр ваших эмоций от его<br />
                   музыки, будет самым разнообразным.
                 </p>
+                <p class="team__desc team__desc-tablet-1">
+                  <span class="highlight">Иван Грек</span> человек<br />
+                  с одной эмоцией на лице,<br />
+                  но спектр ваших эмоций<br />
+                  от его музыки, будет<br />
+                  самым разнообразным.
+                </p>
                 <img
                   class="team__arrow team__arrow-1"
                   src="/src/images/arrow.svg"
+                  alt="Стрелка"
+                />
+                <img
+                  class="team__arrow team__arrow-tablet-1"
+                  src="/src/images/arrow-tablet.svg"
                   alt="Стрелка"
                 />
                 <img
@@ -174,6 +234,11 @@
                 <img
                   class="team__arrow team__arrow-2"
                   src="/src/images/arrow.svg"
+                  alt="Стрелка"
+                />
+                <img
+                  class="team__arrow team__arrow-tablet-2"
+                  src="/src/images/arrow-tablet.svg"
                   alt="Стрелка"
                 />
                 <img
@@ -194,6 +259,11 @@
                   alt="Стрелка"
                 />
                 <img
+                  class="team__arrow team__arrow-tablet-3"
+                  src="/src/images/arrow-tablet.svg"
+                  alt="Стрелка"
+                />
+                <img
                   class="team__photo-3"
                   src="/src/images/mikael.png"
                   alt="Микаэль"
@@ -203,7 +273,7 @@
           </div>
         </div>
       </section>
-      <!-- <section class="gallery">
+      <section class="gallery">
         <div class="gallery__slide swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide gallery__item">
@@ -313,7 +383,7 @@
                 <img
                   class="why-him__img-1"
                   src="/src/images/why-him1-1x.jpg"
-                  srcset="/src/images/why-him1-2x.jpg"
+                  srcset="/src/images/why-him1-2x.jpg 2x"
                   alt="Фото 1"
                 />
               </div>
@@ -322,7 +392,7 @@
               <img
                 class="why-him__img-2"
                 src="/src/images/why-him2-1x.jpg"
-                srcset="/src/images/why-him2-2x.jpg"
+                srcset="/src/images/why-him2-2x.jpg 2x"
                 alt="Фото 2"
               />
               <p class="why-him-text-3">
@@ -336,7 +406,7 @@
               <img
                 class="why-him__img-3"
                 src="/src/images/why-him3-1x.jpg"
-                srcset="/src/images/why-him3-2x.jpg"
+                srcset="/src/images/why-him3-2x.jpg 2x"
                 alt="Фото 3"
               />
             </div>
@@ -357,7 +427,7 @@
                 <img
                   class="events__item-img"
                   src="/src/images/events1-1x.jpg"
-                  srcset="/src/images/events1-2x.jpg"
+                  srcset="/src/images/events1-2x.jpg 2x"
                   alt="Фото 1"
                 />
                 <div class="events__item-inner">
@@ -381,7 +451,7 @@
                 <img
                   class="events__item-img"
                   src="/src/images/events2-1x.jpg"
-                  srcset="/src/images/events2-2x.jpg"
+                  srcset="/src/images/events2-2x.jpg 2x"
                   alt="Фото 1"
                 />
                 <div class="events__item-inner">
@@ -406,7 +476,7 @@
                 <img
                   class="events__item-img"
                   src="/src/images/events3-1x.jpg"
-                  srcset="/src/images/events3-2x.jpg"
+                  srcset="/src/images/events3-2x.jpg 2x"
                   alt="Фото 1"
                 />
                 <div class="events__item-inner">
@@ -456,7 +526,7 @@
                 <img
                   class="about__item-img"
                   src="/src/images/about1-1x.jpg"
-                  srcset="/src/images/about1-2x.jpg"
+                  srcset="/src/images/about1-2x.jpg 2x"
                   alt="Фото 1"
                 />
                 <div class="about__item-info">
@@ -471,7 +541,7 @@
                 <img
                   class="about__item-img"
                   src="/src/images/about2-1x.jpg"
-                  srcset="/src/images/about2-2x.jpg"
+                  srcset="/src/images/about2-2x.jpg 2x"
                   alt="Фото 2"
                 />
                 <div class="about__item-info">
@@ -486,7 +556,7 @@
                 <img
                   class="about__item-img"
                   src="/src/images/about3-1x.jpg"
-                  srcset="/src/images/about3-2x.jpg"
+                  srcset="/src/images/about3-2x.jpg 2x"
                   alt="Фото 3"
                 />
                 <div class="about__item-info">
@@ -501,7 +571,7 @@
                 <img
                   class="about__item-img"
                   src="/src/images/about4-1x.jpg"
-                  srcset="/src/images/about4-2x.jpg"
+                  srcset="/src/images/about4-2x.jpg 2x"
                   alt="Фото 4"
                 />
                 <div class="about__item-info">
@@ -516,7 +586,7 @@
                 <img
                   class="about__item-img"
                   src="/src/images/about5-1x.jpg"
-                  srcset="/src/images/about5-2x.jpg"
+                  srcset="/src/images/about5-2x.jpg 2x"
                   alt="Фото 5"
                 />
                 <div class="about__item-info">
@@ -531,7 +601,7 @@
                 <img
                   class="about__item-img"
                   src="/src/images/about6-1x.jpg"
-                  srcset="/src/images/about6-2x.jpg"
+                  srcset="/src/images/about6-2x.jpg 2x"
                   alt="Фото 6"
                 />
                 <div class="about__item-info">
@@ -546,7 +616,7 @@
                 <img
                   class="about__item-img"
                   src="/src/images/about7-1x.jpg"
-                  srcset="/src/images/about7-2x.jpg"
+                  srcset="/src/images/about7-2x.jpg 2x"
                   alt="Фото 7"
                 />
                 <div class="about__item-info">
@@ -590,9 +660,9 @@
           </blockquote>
           <button class="quote__btn">Прожить момент</button>
         </div>
-      </section> -->
+      </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer__item">
           <div class="footer__content-wrapper">
@@ -712,7 +782,7 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <script type="module" src="/src/js/index.js"></script>
   </body>
