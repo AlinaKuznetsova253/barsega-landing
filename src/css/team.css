@@ -85,10 +85,6 @@
   transform: translateX(-10%) translateY(355%) rotate(5deg);
 }
 
-.team__desc-tablet-1 {
-  display: none;
-}
-
 .team__arrow-1 {
   position: absolute;
   transform: translateX(115%) translateY(370%) rotate(-24deg) scaleY(-1);
@@ -173,20 +169,16 @@
     transform: translateX(63%) translateY(5%);
   }
   .team__desc-1 {
-    display: none;
-  }
-  .team__desc-tablet-1 {
-    display: flex;
     text-align: right;
     max-width: 310px;
     width: 100%;
     position: absolute;
-    transform: translateX(-13%) translateY(-7%) rotate(10deg);
+    transform: translateX(-12%) translateY(-25%) rotate(11deg);
   }
   .team__arrow-tablet-1 {
     display: flex;
     position: absolute;
-    transform: translateX(160%) translateY(-30%) rotate(20deg) scaleY(-1);
+    transform: translateX(185%) translateY(0%) rotate(35deg) scaleY(-1);
   }
   .team__photo-2 {
     max-height: 340px;

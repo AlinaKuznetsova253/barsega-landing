@@ -84,3 +84,26 @@
   justify-content: space-between;
   margin: 100px 0 30px;
 }
+
+@media (max-width: 1024px) {
+  .footer__content {
+    max-width: 746px;
+    padding: 50px;
+    align-items: center;
+  }
+  .footer__content-text {
+    font-size: 32px;
+  }
+  .footer__content-item {
+    margin-top: 30px;
+  }
+  .footer__contacts-phone {
+    font-size: 20px;
+  }
+  .footer__contacts {
+    font-size: 18px;
+  }
+  .footer__info {
+    font-size: 14px;
+  }
+}

@@ -39,3 +39,27 @@
   padding: 15px 30px;
   margin-bottom: 150px;
 }
+
+@media (max-width: 1024px) {
+  .quote {
+    margin-top: 100px;
+    background-image: url(../images/quote-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+  }
+  .quote__item {
+    padding: 100px 97px;
+    min-height: 1059px;
+  }
+  .quote__text {
+    font-size: 32px;
+  }
+  .quote__img {
+    transform: translateX(280%);
+    max-width: 105px;
+  }
+  .quote__btn {
+    margin-bottom: 100px;
+  }
+}

@@ -100,10 +100,11 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 430px 70px 30px 30px;
+  padding: 443px 53px 30px 30px;
 }
 
 .about__item-title {
+  margin-bottom: 10px;
   font-size: 24px;
   font-weight: 700;
   color: var(--title-color);
@@ -129,10 +130,69 @@
   cursor: pointer;
   top: 0;
   right: 0;
-  padding: 279px 110px 279px 0;
+  padding: 279px 100px 279px 0;
   z-index: 3;
   svg {
     fill: var(--text-color);
     stroke: var(--text-color);
+  }
+}
+
+.swiper-button-right-about-tablet {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .about__title-text {
+    font-size: 36px;
+    margin-top: 100px;
+  }
+  .about__info {
+    max-width: 295px;
+    padding: 20px 20px 20px 50px;
+  }
+  .about__info-title {
+    font-size: 36px;
+  }
+  .title__text-size {
+    font-size: 48px;
+  }
+  .about__info-text {
+    font-size: 14px;
+  }
+  .about__info-btn {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .about__item-info {
+    padding: 328px 26px 25px 20px;
+  }
+  .about__item-title {
+    font-size: 14px;
+  }
+  .about__item-text {
+    font-size: 12px;
+  }
+  .about__item-img {
+    height: 416px;
+  }
+  .about__gradient {
+    width: 163px;
+  }
+  .swiper-button-right-about {
+    display: none;
+  }
+  .swiper-button-right-about-tablet {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    padding: 203px 50px 203px 0;
+    z-index: 3;
+    svg {
+      fill: var(--text-color);
+      stroke: var(--text-color);
+    }
   }
 }
