@@ -37,4 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+  const menuBtn = document.querySelector(".menu-btn");
+  const menuMobile = document.querySelector(".menu-mobile");
+
+  menuBtn.addEventListener("click", () => {
+    menuBtn.classList.toggle("menu-open");
+    menuMobile.classList.toggle("menu-open");
+  });
 });

@@ -59,73 +59,6 @@
 
 .hero-content-mobile {
   display: none;
-  position: relative;
-  padding-top: 70%;
-}
-
-.hero-image-mobile {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border-radius: 16px;
-  z-index: -1;
-}
-
-.hero-title-mobile-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-}
-
-.hero-subtitle-mobile {
-  color: white;
-  font-size: 32px;
-}
-
-.hero-title-mobile {
-  color: aqua;
-  font-size: 48px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-}
-
-.hero-title-mobile--1 {
-  font-size: 80px;
-}
-
-.hero-title-mobile--2 {
-  font-size: 64px;
-}
-
-.hero-title-mobile--3 {
-  font-size: 42px;
-}
-
-@media (max-width: 1400px) {
-  .hero-title {
-    font-size: 100px;
-  }
-  .hero-image--1,
-  .hero-image--3 {
-    max-width: 325px;
-    max-height: 691px;
-  }
-  .hero-image--2 {
-    max-width: 348px;
-    max-height: 739px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .hero-title {
-    font-size: 94px;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -146,11 +79,67 @@
   }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 576px) {
+  .hero .container {
+    padding: 0;
+  }
+  .hero {
+    margin-top: 30px;
+  }
   .hero-content {
     display: none;
   }
   .hero-content-mobile {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
   }
-} */
+  .hero-image-mobile {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  .hero-title-mobile-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 180px;
+    height: 100%;
+    z-index: 2;
+  }
+  .hero-subtitle-mobile {
+    color: var(--about-text);
+    font-size: 32px;
+  }
+  .hero-title-mobile {
+    color: var(--accent-color);
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .hero-title-mobile--1 {
+    font-size: 83px;
+  }
+  .hero-title-mobile--2 {
+    font-size: 64px;
+  }
+  .hero-title-mobile--3 {
+    font-size: 42px;
+  }
+  .whatsapp-link-text-mobile {
+    display: flex;
+    font-size: 14px;
+    margin-top: 10px;
+    z-index: 3;
+    cursor: pointer;
+  }
+}

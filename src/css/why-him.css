@@ -71,6 +71,10 @@
   max-height: 477px;
 }
 
+.why-him__content-mobile {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .why-him__content {
     margin-top: 100px;
@@ -97,5 +101,62 @@
   .why-him__img-3 {
     max-width: 320px;
     max-height: 412px;
+  }
+}
+
+@media (max-width: 576px) {
+  .why-him__content {
+    display: none;
+  }
+  .why-him .container {
+    padding: 0;
+  }
+  .why-him__content-mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .why-him-mobile {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+  }
+  .why-him__title-mobile {
+    font-size: 36px;
+    font-weight: 400;
+  }
+  .why-him-logo-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 90px;
+    transform: translateX(465%);
+  }
+  .why-him-info-mobile {
+    margin-top: 20px;
+  }
+  .why-him-item-mobile {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  .why-him-text-1-mobile,
+  .why-him-text-3-mobile {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .why-him-text-2-mobile {
+    font-size: 16px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  .title__text-color-mobile {
+    color: var(--accent-color);
+    font-weight: 600;
+  }
+  .why-him-img-2-mobile {
+    transform: scaleX(-1);
   }
 }

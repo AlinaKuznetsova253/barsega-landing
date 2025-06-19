@@ -13,7 +13,7 @@
 
 .quote__item {
   min-height: 1170px;
-  padding: 150px;
+  padding: 150px 150px 0;
   margin: 0;
   text-align: center;
 }
@@ -49,7 +49,7 @@
     background-size: cover;
   }
   .quote__item {
-    padding: 100px 97px;
+    padding: 100px 97px 0;
     min-height: 1059px;
   }
   .quote__text {
@@ -61,5 +61,23 @@
   }
   .quote__btn {
     margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .quote {
+    margin-top: 50px;
+  }
+  .quote__item {
+    padding: 50px 36px 0 36px;
+    min-height: 600px;
+  }
+  .quote__img {
+    margin-top: 10px;
+    transform: translateX(5%);
+    max-width: 105px;
+  }
+  .quote__btn {
+    margin-bottom: 50px;
   }
 }

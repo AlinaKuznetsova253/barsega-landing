@@ -34,7 +34,11 @@
 }
 
 .swiper-button-right-tablet {
-  display: flex;
+  display: none;
+}
+
+.gallery__slide-mobile {
+  display: none;
 }
 
 @media (max-width: 1024px) {
@@ -57,5 +61,22 @@
       fill: var(--text-color);
       stroke: var(--text-color);
     }
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery .gallery__slide {
+    display: none;
+  }
+  .gallery__slide-mobile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+  }
+  .gallery__item-mobile {
+    display: flex;
+  }
+  .gallery__item-img-mobile {
+    width: 100%;
   }
 }
