@@ -91,6 +91,12 @@
   display: none;
 }
 
+@media (max-width: 1440px) {
+  .events__item-text {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 1024px) {
   .events__content {
     margin-top: 100px;
@@ -160,12 +166,13 @@
   }
   .events__item-title {
     padding-right: 22px;
+    font-size: 16px;
   }
   .events__text-mobile {
     font-weight: 600;
   }
   .events__btn-item {
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 20px;
     width: 100%;
   }

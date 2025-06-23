@@ -14,22 +14,22 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a class="menu__link text-underline-animation" href="#"
+                <a class="menu__link text-underline-animation" href="#home"
                   >Главная</a
                 >
               </li>
               <li class="menu__item">
-                <a class="menu__link text-underline-animation" href="#"
+                <a class="menu__link text-underline-animation" href="#services"
                   >Услуги</a
                 >
               </li>
               <li class="menu__item">
-                <a class="menu__link text-underline-animation" href="#"
+                <a class="menu__link text-underline-animation" href="#about"
                   >О себе</a
                 >
               </li>
               <li class="menu__item">
-                <a class="menu__link text-underline-animation" href="#"
+                <a class="menu__link text-underline-animation" href="#cases"
                   >Кейсы</a
                 >
               </li>
@@ -38,17 +38,17 @@
           <nav class="menu__tablet">
             <ul class="menu__list">
               <li class="menu__item">
-                <a class="menu__link text-underline-animation" href="#"
+                <a class="menu__link text-underline-animation" href="#services"
                   >Услуги</a
                 >
               </li>
               <li class="menu__item">
-                <a class="menu__link text-underline-animation" href="#"
+                <a class="menu__link text-underline-animation" href="#about"
                   >О себе</a
                 >
               </li>
               <li class="menu__item">
-                <a class="menu__link text-underline-animation" href="#"
+                <a class="menu__link text-underline-animation" href="#cases"
                   >Кейсы</a
                 >
               </li>
@@ -65,7 +65,10 @@
             </div>
             <div class="contact-info">
               <div class="contact-info__item">
-                <a class="phone text-underline-animation" href="tel:79781563562"
+                <a
+                  target="_blank"
+                  class="phone text-underline-animation"
+                  href="tel:79781563562"
                   >+7(978)156-35-62</a
                 >
                 <p class="contact-info__text">
@@ -85,21 +88,33 @@
               </div>
               <div class="contact-icons">
                 <div class="contact-icons__item">
-                  <a class="icon" href="#">
+                  <a
+                    target="_blank"
+                    class="icon"
+                    href="https://www.instagram.com/barsbarseg/?igsh=dm9kbGg0cnk2eWcy#"
+                  >
                     <img
                       class="icon-img"
                       src="src/images/instagram-dark.svg"
                       alt="Instagram"
                     />
                   </a>
-                  <a class="icon" href="#">
+                  <a
+                    target="_blank"
+                    class="icon"
+                    href="https://wa.me/79780396106"
+                  >
                     <img
                       class="icon-img"
                       src="src/images/whatsapp-dark.svg"
                       alt="Whatsapp"
                     />
                   </a>
-                  <a class="icon" href="#">
+                  <a
+                    target="_blank"
+                    class="icon"
+                    href="https://t.me/barsbarseg"
+                  >
                     <img
                       class="icon-img"
                       src="src/images/telegram-dark.svg"
@@ -120,7 +135,11 @@
         <div class="header__content-mobile">
           <div class="messenger-mobile">
             <div class="messenger-icons-mobile">
-              <a class="icon-mobile" href="#">
+              <a
+                target="_blank"
+                class="icon-mobile"
+                href="https://www.instagram.com/barsbarseg/?igsh=dm9kbGg0cnk2eWcy#"
+              >
                 <svg
                   width="28"
                   height="28"
@@ -140,7 +159,11 @@
                   />
                 </svg>
               </a>
-              <a class="icon-mobile" href="#">
+              <a
+                target="_blank"
+                class="icon-mobile"
+                href="https://wa.me/79780396106"
+              >
                 <svg
                   width="28"
                   height="28"
@@ -157,7 +180,11 @@
                   />
                 </svg>
               </a>
-              <a class="icon-mobile" href="#">
+              <a
+                target="_blank"
+                class="icon-mobile"
+                href="https://t.me/barsbarseg"
+              >
                 <svg
                   width="26"
                   height="24"
@@ -190,22 +217,25 @@
                 <ul class="menu__list-mobile">
                   <li class="menu__item-mobile">
                     <a
+                      data-link="mobile-menu"
                       class="menu__link-mobile text-underline-animation"
-                      href="#"
+                      href="#services"
                       >Услуги</a
                     >
                   </li>
                   <li class="menu__item-mobile">
                     <a
+                      data-link="mobile-menu"
                       class="menu__link-mobile text-underline-animation"
-                      href="#"
+                      href="#about"
                       >О себе</a
                     >
                   </li>
                   <li class="menu__item-mobile">
                     <a
+                      data-link="mobile-menu"
                       class="menu__link-mobile text-underline-animation"
-                      href="#"
+                      href="#cases"
                       >Кейсы</a
                     >
                   </li>
@@ -215,11 +245,10 @@
             <div class="contacts-mobile">
               <div class="phone-info-mobile">
                 <a class="phone-img-mobile" href="#">
-                  <img src="src/images/call.svg" alt="Телефон" />
-                </a>
-              </div>
-              <div class="contact-info__item-mobile">
-                <a
+                  <img src="src/images/call.svg" alt="Телефон" /> </a
+                ><a
+                  data-link="mobile-menu"
+                  target="_blank"
                   class="phone-mobile text-underline-animation"
                   href="tel:79781563562"
                   >+7(978)156-35-62</a
@@ -247,8 +276,10 @@
                   />
                 </svg>
                 <a
+                  data-link="mobile-menu"
+                  target="_blank"
                   class="header__link-mobile-item text-underline-animation"
-                  href="#"
+                  href="https://www.instagram.com/barsbarseg/?igsh=dm9kbGg0cnk2eWcy#"
                   >Instagram</a
                 >
               </div>
@@ -268,8 +299,10 @@
                   />
                 </svg>
                 <a
+                  data-link="mobile-menu"
+                  target="_blank"
                   class="header__link-mobile-item text-underline-animation"
-                  href="#"
+                  href="https://vk.com/barsbarseg"
                   >ВКонтакте</a
                 >
               </div>
@@ -290,8 +323,10 @@
                   />
                 </svg>
                 <a
+                  data-link="mobile-menu"
+                  target="_blank"
                   class="header__link-mobile-item text-underline-animation"
-                  href="#"
+                  href="https://wa.me/79780396106"
                   >WhatsApp</a
                 >
               </div>
@@ -309,8 +344,10 @@
                   />
                 </svg>
                 <a
+                  data-link="mobile-menu"
+                  target="_blank"
                   class="header__link-mobile-item text-underline-animation"
-                  href="#"
+                  href="https://t.me/barsbarseg"
                   >Telegram</a
                 >
               </div>
@@ -352,7 +389,10 @@
               />
             </div>
             <div class="whatsapp-link">
-              <a class="whatsapp-link-text text-underline-animation"
+              <a
+                target="_blank"
+                class="whatsapp-link-text text-underline-animation"
+                href="https://wa.me/79780396106"
                 >Написать в WhatsApp</a
               >
             </div>
@@ -373,7 +413,10 @@
               </h1>
             </div>
             <div class="whatsapp-link-mobile">
-              <a class="whatsapp-link-text-mobile text-underline-animation"
+              <a
+                target="_blank"
+                class="whatsapp-link-text-mobile text-underline-animation"
+                href="https://wa.me/79780396106"
                 >Написать в WhatsApp</a
               >
             </div>
@@ -470,19 +513,21 @@
                   src="/src/images/nikitich.png"
                   alt="Никитич"
                 />
-                <img
-                  class="team__arrow-mobile team__arrow-tablet-2"
-                  src="/src/images/arrow.svg"
-                  alt="Стрелка"
-                />
                 <div class="team__title-mobile">
                   <p class="title-mobile-2">DJ Никитич</p>
                 </div>
-                <p class="team__desc-mobile team__desc-2-mobile">
-                  <strong>100% лысого драйва!</strong><br />
-                  Диджей, который в курсе всех<br />музыкальных вкусов и
-                  новинок!
-                </p>
+                <div class="team__text-wrapper">
+                  <img
+                    class="team__arrow-mobile team__arrow-tablet-2"
+                    src="/src/images/arrow.svg"
+                    alt="Стрелка"
+                  />
+                  <p class="team__desc-mobile team__desc-2-mobile">
+                    <strong>100% лысого драйва!</strong><br />
+                    Диджей, который в курсе всех<br />музыкальных вкусов и
+                    новинок!
+                  </p>
+                </div>
               </div>
               <div class="team__member-1-mobile">
                 <img
@@ -490,19 +535,21 @@
                   src="/src/images/ivan-grek.png"
                   alt="Иван Грек"
                 />
-                <img
-                  class="team__arrow-mobile team__arrow-tablet-1"
-                  src="/src/images/arrow.svg"
-                  alt="Стрелка"
-                />
-                <div class="team__title-mobile">
+                <div class="team__title-mobile team__title-mobile-1">
                   <p class="title-mobile-1">DJ Иван Грек</p>
                 </div>
-                <p class="team__desc-mobile team__desc-1-mobile">
-                  <strong>Человек с одной эмоцией на лице,</strong><br />
-                  но спектр ваших<br />
-                  эмоций от его музыки, будет<br />самым разнообразным.
-                </p>
+                <div class="team__text-wrapper">
+                  <img
+                    class="team__arrow-mobile team__arrow-tablet-1"
+                    src="/src/images/arrow.svg"
+                    alt="Стрелка"
+                  />
+                  <p class="team__desc-mobile team__desc-1-mobile">
+                    <strong>Человек с одной эмоцией на лице,</strong><br />
+                    но спектр ваших<br />
+                    эмоций от его музыки, будет<br />самым разнообразным.
+                  </p>
+                </div>
               </div>
               <div class="team__member-3-mobile">
                 <img
@@ -510,19 +557,21 @@
                   src="/src/images/mikael.png"
                   alt="Микаэль"
                 />
-                <img
-                  class="team__arrow-mobile team__arrow-tablet-3"
-                  src="/src/images/arrow.svg"
-                  alt="Стрелка"
-                />
-                <div class="team__title-mobile">
+                <div class="team__title-mobile team__title-mobile-3">
                   <p class="title-mobile-3">DJ Микаэль</p>
                 </div>
-                <p class="team__desc-mobile team__desc-3-mobile">
-                  <strong>Надежный как швейцарские часы.</strong><br />
-                  Ивент диджей с<br />
-                  большим опытом!
-                </p>
+                <div class="team__text-wrapper">
+                  <img
+                    class="team__arrow-mobile team__arrow-tablet-3"
+                    src="/src/images/arrow.svg"
+                    alt="Стрелка"
+                  />
+                  <p class="team__desc-mobile team__desc-3-mobile">
+                    <strong>Надежный как швейцарские часы.</strong><br />
+                    Ивент диджей с<br />
+                    большим опытом!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -668,7 +717,7 @@
           </div>
         </div>
       </section>
-      <section class="why-him">
+      <section id="about" class="why-him">
         <div class="container">
           <div class="why-him__content">
             <div class="why-him__item">
@@ -730,6 +779,70 @@
               />
             </div>
           </div>
+          <div class="why-him__content-tablet">
+            <div class="why-him__image">
+              <img
+                class="why-him__img-3"
+                src="/src/images/why-him3-1x-tablet.jpg"
+                srcset="/src/images/why-him3-2x-tablet.jpg 2x"
+                alt="Фото 3"
+              />
+            </div>
+            <div class="why-him__item">
+              <h2 class="why-him__title">
+                Всё ещё думаете: “Почему он?”<br /><span
+                  class="title__text-color"
+                  >ВСЁ ПРОСТО</span
+                >
+              </h2>
+              <img
+                class="why-him-img"
+                src="src/images/logo.svg"
+                alt="Логотип"
+              />
+              <p class="why-him-text-1">
+                Потому что я не просто ведущий — я ваш личный генератор хорошего
+                настроения. Моя энергия заряжает зал с первых минут, а искренняя
+                улыбка и доброта растопят даже самые строгие лица. Я не работаю
+                по шаблонам — каждый мой выход это живая импровизация, где нет
+                места скуке и формальностям.
+              </p>
+            </div>
+            <div class="why-him__float">
+              <img
+                class="why-him__img-1"
+                src="/src/images/why-him1-1x-tablet.jpg"
+                srcset="/src/images/why-him1-2x-tablet.jpg 2x"
+                alt="Фото 1"
+              />
+            </div>
+            <div class="why-him__item">
+              <p class="why-him-text-3">
+                Потому что для меня важно не просто отработать, а подарить вам
+                воспоминания. Те самые, о которых через годы будут говорить:
+                "Помнишь, как было круто?" Если вы хотите не просто мероприятие,
+                а настоящие эмоции — вы уже знаете, кого звать.
+              </p>
+            </div>
+            <div class="why-him__float">
+              <img
+                class="why-him__img-2"
+                src="/src/images/why-him2-1x-tablet.jpg"
+                srcset="/src/images/why-him2-2x-tablet.jpg 2x"
+                alt="Фото 2"
+              />
+            </div>
+            <div class="why-him__image-text-tablet">
+              <p class="why-him-text-2">
+                Потому что я умею чувствовать людей и создавать ту самую
+                атмосферу, где гости становятся главными героями праздника. Со
+                мной даже самый зажатый коллектив превращается в команду друзей,
+                а незнакомые друг с другом люди к концу вечера обнимаются как
+                родные. Я не просто веду мероприятие — я делаю так, чтобы каждый
+                унес с собой частичку этого тепла.
+              </p>
+            </div>
+          </div>
           <div class="why-him__content-mobile">
             <div class="why-him-mobile">
               <h2 class="why-him__title-mobile">
@@ -756,14 +869,16 @@
                 </p>
                 <img
                   class="why-him-img-1-mobile"
-                  src="/src/images/why-him-mobile.svg"
+                  src="/src/images/why-him-mobile-1x.png"
+                  srcset="/src/images/why-him-mobile-2x.png 2x"
                   alt="Фото"
                 />
               </div>
               <div class="why-him-item-mobile">
                 <img
                   class="why-him-img-2-mobile"
-                  src="/src/images/why-him-mobile.svg"
+                  src="/src/images/why-him-mobile-1x.png"
+                  srcset="/src/images/why-him-mobile-2x.png 2x"
                   alt="Фото"
                 />
                 <p class="why-him-text-2-mobile">
@@ -790,7 +905,8 @@
                 </p>
                 <img
                   class="why-him-img-3-mobile"
-                  src="/src/images/why-him-mobile.svg"
+                  src="/src/images/why-him-mobile-1x.png"
+                  srcset="/src/images/why-him-mobile-2x.png 2x"
                   alt="Фото"
                 />
               </div>
@@ -798,7 +914,7 @@
           </div>
         </div>
       </section>
-      <section class="events">
+      <section id="services" class="events">
         <div class="container">
           <div class="events__content">
             <div class="events__title">
@@ -841,7 +957,9 @@
                   alt="Стрелка"
                 />
                 <div class="events__btn">
-                  <button class="events__btn-item">Забронировать дату</button>
+                  <button class="events__btn-item telegram-btn">
+                    Забронировать дату
+                  </button>
                 </div>
               </div>
               <div class="events__item">
@@ -878,7 +996,9 @@
                   alt="Стрелка"
                 />
                 <div class="events__btn">
-                  <button class="events__btn-item">Забронировать дату</button>
+                  <button class="events__btn-item telegram-btn">
+                    Забронировать дату
+                  </button>
                 </div>
               </div>
               <div class="events__item">
@@ -913,7 +1033,9 @@
                   alt="Стрелка"
                 />
                 <div class="events__btn">
-                  <button class="events__btn-item">Забронировать дату</button>
+                  <button class="events__btn-item telegram-btn">
+                    Забронировать дату
+                  </button>
                 </div>
               </div>
             </div>
@@ -942,7 +1064,9 @@
                       день<br />было только счастье, смех и самые теплые эмоции,
                       которые останутся<br />с вами на всю жизнь.
                     </p>
-                    <button class="events__btn-item">Забронировать дату</button>
+                    <button class="events__btn-item telegram-btn">
+                      Забронировать дату
+                    </button>
                   </div>
                 </div>
               </div>
@@ -962,7 +1086,9 @@
                       корпоратив в легенду офиса. Будет весело, громко и так,
                       что коллеги<br />еще год будут вспоминать этот вечер.
                     </p>
-                    <button class="events__btn-item">Забронировать дату</button>
+                    <button class="events__btn-item telegram-btn">
+                      Забронировать дату
+                    </button>
                   </div>
                 </div>
               </div>
@@ -983,7 +1109,9 @@
                       Я создам для ваc<br />мероприятие, которого точно не было
                       ни у кого — с полным погружением<br />в мир вашей мечты.
                     </p>
-                    <button class="events__btn-item">Забронировать дату</button>
+                    <button class="events__btn-item telegram-btn">
+                      Забронировать дату
+                    </button>
                   </div>
                 </div>
               </div>
@@ -991,7 +1119,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section id="cases" class="about">
         <div class="about-desk">
           <div class="about__title">
             <h2 class="about__title-text">
@@ -1011,7 +1139,7 @@
                 «самой читающей<br />нацией в мире». Несмотря<br />на то, что
                 традиционные<br />библиотеки давно считаются.
               </p>
-              <button class="about__info-btn">ХОЧУ ТАК ЖЕ!</button>
+              <button class="about__info-btn telegram-btn">ХОЧУ ТАКЖЕ!</button>
             </div>
             <div class="about__slide swiper-second">
               <div class="swiper-wrapper">
@@ -1161,7 +1289,7 @@
           </div>
           <div class="about__info">
             <h2 class="about__info-title">
-              Провёл<span class="title__text-size">1500+</span><br />праздников
+              Провёл <span class="title__text-size">1500+</span><br />праздников
             </h2>
             <p class="about__info-text">
               Несмотря на то, что традиционные библиотеки давно считаются
@@ -1169,10 +1297,10 @@
               нацией в мире». Несмотря на то, что традиционные библиотеки давно
               считаются.
             </p>
-            <button class="about__info-btn">ХОЧУ ТАК ЖЕ!</button>
+            <button class="about__info-btn telegram-btn">ХОЧУ ТАКЖЕ!</button>
           </div>
           <div class="about__images">
-            <div class="about__item">
+            <div class="about__item-mobile">
               <img
                 class="about__item-img"
                 src="/src/images/about1-1x-mobile.jpg"
@@ -1188,7 +1316,7 @@
                 </p>
               </div>
             </div>
-            <div class="about__item">
+            <div class="about__item-mobile">
               <img
                 class="about__item-img"
                 src="/src/images/about2-1x-mobile.jpg"
@@ -1203,7 +1331,7 @@
                 </p>
               </div>
             </div>
-            <div class="about__item">
+            <div class="about__item-mobile">
               <img
                 class="about__item-img"
                 src="/src/images/about3-1x-mobile.jpg"
@@ -1218,7 +1346,7 @@
                 </p>
               </div>
             </div>
-            <div class="about__item">
+            <div class="about__item-mobile">
               <img
                 class="about__item-img about-img-mobile"
                 src="/src/images/about4-1x-mobile.jpg"
@@ -1249,7 +1377,7 @@
               alt="Цитата"
             />
           </blockquote>
-          <button class="quote__btn">Прожить момент</button>
+          <button class="quote__btn telegram-btn">Прожить момент</button>
         </div>
       </section>
     </main>
@@ -1268,6 +1396,7 @@
                   alt="Телефон"
                 />
                 <a
+                  target="_blank"
                   class="footer__content-phone text-underline-animation"
                   href="tel:79781563562"
                   >+7(978)156-35-62</a
@@ -1281,7 +1410,7 @@
                     viewBox="0 0 28 28"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="icon-svg"
+                    class="icon-svg telegram-btn"
                   >
                     <path
                       d="M20.9764 0.629395H7.02521C3.17094 0.629395 0.0354004 3.76494 0.0354004 7.61921V20.3825C0.0354004 24.2368 3.17094 27.3723 7.02521 27.3723H20.9764C24.8307 27.3723 27.9662 24.2368 27.9662 20.3825V7.61921C27.9662 3.76494 24.8307 0.629395 20.9764 0.629395ZM2.50119 7.61921C2.50119 5.12499 4.53099 3.09516 7.02521 3.09516H20.9764C23.4706 3.09516 25.5004 5.12499 25.5004 7.61921V20.3825C25.5004 22.8767 23.4706 24.9065 20.9764 24.9065H7.02521C4.53099 24.9065 2.50119 22.8767 2.50119 20.3825V7.61921Z"
@@ -1294,8 +1423,9 @@
                     />
                   </svg>
                   <a
+                    target="_blank"
                     class="footer__contacts-item text-underline-animation"
-                    href="#"
+                    href="https://www.instagram.com/barsbarseg/?igsh=dm9kbGg0cnk2eWcy#"
                     >Instagram</a
                   >
                 </div>
@@ -1306,7 +1436,7 @@
                     viewBox="0 0 28 28"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="icon-svg"
+                    class="icon-svg telegram-btn"
                   >
                     <path
                       fill-rule="evenodd"
@@ -1315,8 +1445,9 @@
                     />
                   </svg>
                   <a
+                    target="_blank"
                     class="footer__contacts-item text-underline-animation"
-                    href="#"
+                    href="https://vk.com/barsbarseg"
                     >ВКонтакте</a
                   >
                 </div>
@@ -1327,7 +1458,7 @@
                     viewBox="0 0 28 28"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="icon-svg"
+                    class="icon-svg telegram-btn"
                   >
                     <path
                       d="M18.1206 20.1393C12.7109 20.1393 8.30971 15.767 8.30823 10.3946C8.30971 9.03272 9.42631 7.92529 10.7947 7.92529C10.9353 7.92529 11.0745 7.93706 11.2078 7.96059C11.501 8.00912 11.7794 8.10766 12.0356 8.2562C12.0727 8.27826 12.0978 8.31358 12.1038 8.35476L12.6754 11.9329C12.6828 11.9755 12.6695 12.0167 12.6413 12.0476C12.3259 12.3947 11.9231 12.6447 11.4744 12.7697L11.2582 12.83L11.3396 13.0374C12.0771 14.9022 13.5787 16.392 15.458 17.1273L15.6668 17.2097L15.7275 16.995C15.8534 16.5494 16.1051 16.1493 16.4546 15.8361C16.4798 15.8126 16.5139 15.8008 16.5479 15.8008C16.5553 15.8008 16.5627 15.8008 16.5716 15.8023L20.1746 16.37C20.2176 16.3773 20.2531 16.4008 20.2753 16.4376C20.4234 16.692 20.5226 16.97 20.573 17.2612C20.5967 17.3906 20.607 17.5274 20.607 17.67C20.607 19.0304 19.4919 20.1378 18.1206 20.1393Z"
@@ -1337,8 +1468,9 @@
                     />
                   </svg>
                   <a
+                    target="_blank"
                     class="footer__contacts-item text-underline-animation"
-                    href="#"
+                    href="https://wa.me/79780396106"
                     >WhatsApp</a
                   >
                 </div>
@@ -1349,15 +1481,16 @@
                     viewBox="0 0 26 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="icon-svg"
+                    class="icon-svg telegram-btn"
                   >
                     <path
                       d="M0.862743 10.7663C0.921415 10.7348 0.980114 10.7048 1.03732 10.6765C2.0318 10.1817 3.03949 9.71843 4.0457 9.25517C4.09997 9.25517 4.19089 9.1874 4.24223 9.16534C4.31997 9.1291 4.39772 9.09444 4.47546 9.0582C4.62508 8.98887 4.77469 8.9211 4.92284 8.85177C5.22207 8.71468 5.5198 8.57762 5.81903 8.44053C6.41601 8.16635 7.01299 7.89218 7.60997 7.61643C8.80394 7.06807 9.9994 6.51811 11.1934 5.96976C12.3873 5.42141 13.5828 4.87148 14.7767 4.32313C15.9707 3.77478 17.1661 3.22486 18.3601 2.6765C19.554 2.12815 20.7495 1.57823 21.9435 1.02987C22.209 0.906967 22.4964 0.724178 22.781 0.670603C23.0201 0.624907 23.2533 0.53668 23.4938 0.487833C23.95 0.394865 24.4531 0.357041 24.8902 0.56031C25.0413 0.631218 25.1806 0.730469 25.2965 0.854951C25.851 1.44427 25.7732 2.41179 25.6559 3.24063C24.8389 9.01725 24.0219 14.7954 23.2034 20.5721C23.0919 21.3647 22.9394 22.2345 22.3571 22.7355C21.8642 23.1594 21.1631 23.2067 20.5544 23.027C19.9457 22.8458 19.4088 22.4661 18.8823 22.0926C16.6982 20.539 14.5127 18.9853 12.3287 17.4316C11.8094 17.0629 11.2315 16.5807 11.2374 15.911C11.2403 15.5077 11.4647 15.1484 11.6935 14.8285C13.5915 12.1687 16.33 10.3409 18.3674 7.80393C18.6549 7.44624 18.8808 6.8002 18.4862 6.59378C18.2515 6.47087 17.9816 6.63787 17.7675 6.79702C15.0745 8.80607 12.3829 10.8167 9.6899 12.8258C8.8113 13.4813 7.89016 14.1557 6.83113 14.3164C5.88359 14.4614 4.93018 14.1777 4.01344 13.8878C3.24484 13.6451 2.47768 13.3962 1.71349 13.1393C1.30719 13.0038 0.887683 12.8573 0.57379 12.55C0.259897 12.2427 0.0795067 11.7259 0.268722 11.3162C0.387532 11.0594 0.617822 10.8971 0.859843 10.7647L0.862743 10.7663Z"
                     />
                   </svg>
                   <a
+                    target="_blank"
                     class="footer__contacts-item text-underline-animation"
-                    href="#"
+                    href="https://t.me/barsbarseg"
                     >Telegram</a
                   >
                 </div>
@@ -1365,11 +1498,17 @@
             </div>
           </div>
           <div class="footer__info">
-            <a class="footer__info-text text-underline-animation" href="#"
+            <a
+              target="_blank"
+              class="footer__info-text text-underline-animation"
+              href="#"
               >Политика конфиденциальности.</a
             >
             <p class="footer__info-text">© 2025 Barso. Все права защищены</p>
-            <a class="footer__info-text text-underline-animation" href="#"
+            <a
+              target="_blank"
+              class="footer__info-text text-underline-animation"
+              href="#"
               >Сайт разработан: ОРИГАМИ</a
             >
           </div>
@@ -1378,11 +1517,13 @@
               © 2025 Barso. Все права защищены
             </p>
             <a
+              target="_blank"
               class="footer__info-text footer__text-mobile-2 text-underline-animation"
               href="#"
               >Политика конфиденциальности.</a
             >
             <a
+              target="_blank"
               class="footer__info-text footer__text-mobile-3 text-underline-animation"
               href="#"
               >Сайт разработан: ОРИГАМИ</a

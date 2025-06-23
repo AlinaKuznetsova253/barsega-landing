@@ -1,6 +1,9 @@
 import "./swiper";
 
 document.addEventListener("DOMContentLoaded", () => {
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+
   function theme() {
     const toggleTheme = document.querySelector(".toggle-theme");
     let el = document.documentElement;
@@ -38,11 +41,40 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  const telegramButtons = document.querySelectorAll(".telegram-btn");
+
+  telegramButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      window.open("https://t.me/barsbarseg", "_blank");
+    });
+  });
   const menuBtn = document.querySelector(".menu-btn");
   const menuMobile = document.querySelector(".menu-mobile");
+  const menuLinks = document.querySelectorAll("[data-link='mobile-menu']");
 
-  menuBtn.addEventListener("click", () => {
-    menuBtn.classList.toggle("menu-open");
-    menuMobile.classList.toggle("menu-open");
-  });
+  const toggleMobileMenu = () => {
+    if (!isMenuOpen) {
+      menuMobile.classList.remove("menu-closing");
+      menuMobile.classList.add("menu-open");
+      menuBtn.classList.add("menu-open");
+      document.body.style.overflow = "hidden";
+      isMenuOpen = true;
+    } else {
+      menuMobile.classList.add("menu-closing");
+      menuBtn.classList.remove("menu-open");
+      document.body.style.overflow = "inherit";
+
+      setTimeout(() => {
+        menuMobile.classList.remove("menu-closing");
+        menuMobile.classList.remove("menu-open");
+        isMenuOpen = false;
+      }, 500);
+    }
+  };
+
+  let isMenuOpen = false;
+
+  menuBtn.addEventListener("click", toggleMobileMenu);
+
+  menuLinks.forEach((link) => link.addEventListener("click", toggleMobileMenu));
 });

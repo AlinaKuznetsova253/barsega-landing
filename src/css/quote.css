@@ -40,6 +40,12 @@
   margin-bottom: 150px;
 }
 
+@media (max-width: 1440px) {
+  .quote__item {
+    min-height: 900px;
+  }
+}
+
 @media (max-width: 1024px) {
   .quote {
     margin-top: 100px;

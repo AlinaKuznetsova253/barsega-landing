@@ -75,32 +75,92 @@
   display: none;
 }
 
+@media (max-width: 1440px) {
+  .why-him__content {
+    gap: 0 10px;
+  }
+  .why-him__title {
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+  .why-him__title span {
+    margin-left: 150px;
+  }
+  .why-him-img {
+    transform: translateX(60%) translateY(50%);
+  }
+  .why-him-text-1 {
+    font-size: 18px;
+  }
+  .why-him-text-2,
+  .why-him-text-3 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .why-him__img-1 {
+    max-width: 312px;
+    max-height: 139px;
+  }
+  .why-him__img-2 {
+    max-width: 421px;
+    max-height: 282px;
+  }
+  .why-him__img-3 {
+    max-width: 248px;
+    max-height: 417px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .why-him__content-tablet {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
   .why-him__content {
+    display: none;
+  }
+  .why-him__content-tablet {
     margin-top: 100px;
   }
   .why-him__title {
     font-size: 36px;
+    text-align: right;
+  }
+  .why-him__title span {
+    margin-left: 408px;
   }
   .why-him-img {
     max-width: 102px;
     max-height: 63px;
     position: absolute;
-    transform: translateX(185%) translateY(65%);
+    transform: translateX(285%) translateY(65%);
+  }
+  .why-him-text-1 {
+    font-size: 16px;
+  }
+  .why-him__img-3 {
+    max-width: 320px;
+    max-height: 412px;
+    float: right;
+    margin: 0 0 20px 20px;
   }
   .why-him__img-1 {
     max-width: 206px;
     max-height: 156px;
+    float: right;
+    margin: 20px 0 20px 20px;
   }
-
   .why-him__img-2 {
     max-width: 358px;
     max-height: 155px;
+    float: left;
+    margin: 20px 20px 0 0;
   }
-
-  .why-him__img-3 {
-    max-width: 320px;
-    max-height: 412px;
+  .why-him-text-2,
+  .why-him-text-3 {
+    font-size: 14px;
   }
 }
 
@@ -139,6 +199,7 @@
   }
   .why-him-item-mobile {
     display: flex;
+    align-items: center;
     padding-bottom: 20px;
   }
   .why-him-text-1-mobile,
@@ -158,5 +219,11 @@
   }
   .why-him-img-2-mobile {
     transform: scaleX(-1);
+  }
+}
+
+@media (max-width: 412px) {
+  .why-him-logo-mobile {
+    transform: translateX(200%) translateY(150%);
   }
 }

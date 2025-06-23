@@ -11,6 +11,9 @@
 @import "./footer.css";
 
 body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   font-size: 16px;
   display: flex;
   flex-direction: column;
@@ -77,6 +80,13 @@ h6 {
   padding: 0 16px;
 }
 
+@media (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
 button {
   color: var(--btn-color);
+  outline: none;
 }
