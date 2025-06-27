@@ -79,7 +79,7 @@
   width: 100%;
   display: flex;
   overflow: hidden;
-  margin-top: 10px;
+  margin: 10px 0 10px;
   transform: translateX(-1%);
   z-index: 1;
 }

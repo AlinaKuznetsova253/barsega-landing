@@ -10,6 +10,7 @@
 }
 
 .title__text {
+  font-family: var(--second-font);
   font-size: 48px;
   font-weight: 300;
   color: var(--text-color-secondary);
@@ -334,7 +335,7 @@
     left: 0;
     bottom: 0;
     transform: rotate(45deg);
-    margin-left: 2%;
+    margin-left: 4%;
   }
   .team__desc-mobile {
     font-size: 16px;
@@ -346,5 +347,11 @@
   }
   .team__member-3-mobile {
     margin-top: 40px;
+  }
+}
+
+@media (max-width: 412px) {
+  .team__arrow-mobile {
+    margin-left: 0;
   }
 }

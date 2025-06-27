@@ -19,9 +19,14 @@
 }
 
 .quote__text {
+  font-family: var(--second-font);
   color: var(--about-text);
   font-size: 48px;
   font-weight: 400;
+}
+
+.quote__text-tablet {
+  display: none;
 }
 
 .quote__img {
@@ -53,6 +58,19 @@
   .quote__item {
     min-height: 900px;
   }
+  .quote__img {
+    transform: translateX(300%);
+  }
+  .quote__text {
+    display: none;
+  }
+  .quote__text-tablet {
+    display: flex;
+    font-family: var(--second-font);
+    color: var(--about-text);
+    font-size: 44px;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -67,11 +85,11 @@
     padding: 100px 97px 0;
     min-height: 1059px;
   }
-  .quote__text {
-    font-size: 32px;
+  .quote__text-tablet {
+    font-size: 30px;
   }
   .quote__img {
-    transform: translateX(280%);
+    transform: translateX(235%);
     max-width: 105px;
   }
   .quote__btn {

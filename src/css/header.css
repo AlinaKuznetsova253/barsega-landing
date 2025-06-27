@@ -111,8 +111,16 @@
   transition: 0.3s ease;
 }
 
+.icon-img:hover path:first-of-type {
+  display: none;
+}
+
 .icon-img:active {
   fill: var(--about-text);
+}
+
+.icon-img:active path:first-of-type {
+  display: none;
 }
 
 .contact-icons__theme {

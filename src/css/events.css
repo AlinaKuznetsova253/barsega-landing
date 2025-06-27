@@ -3,6 +3,7 @@
 }
 
 .events__title-item {
+  font-family: var(--second-font);
   font-size: 48px;
   font-weight: 300;
   text-align: center;
