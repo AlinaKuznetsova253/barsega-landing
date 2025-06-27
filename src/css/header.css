@@ -102,6 +102,19 @@
   gap: 20px;
 }
 
+.icon-img {
+  fill: var(--text-color);
+}
+
+.icon-img:hover {
+  fill: var(--accent-color);
+  transition: 0.3s ease;
+}
+
+.icon-img:active {
+  fill: var(--about-text);
+}
+
 .contact-icons__theme {
   display: flex;
   justify-content: flex-end;
@@ -204,10 +217,19 @@
     display: none;
   }
   .header__content-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: var(--title-color);
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    margin: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
+  }
+  .main {
+    margin-top: 80px;
   }
   .messenger-mobile {
     width: 18px;

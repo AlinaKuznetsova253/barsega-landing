@@ -25,7 +25,9 @@
   cursor: pointer;
   top: 0;
   right: 0;
-  padding: 210px 100px 210px 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: 50px;
   z-index: 3;
   svg {
     fill: var(--text-color);
@@ -39,12 +41,6 @@
 
 .gallery__slide-mobile {
   display: none;
-}
-
-@media (max-width: 1440px) {
-  .swiper-button-right {
-    padding: 145px 100px 145px 0;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -61,7 +57,9 @@
     cursor: pointer;
     top: 0;
     right: 0;
-    padding: 136px 50px 136px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 50px;
     z-index: 3;
     svg {
       fill: var(--text-color);

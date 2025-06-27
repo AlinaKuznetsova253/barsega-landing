@@ -80,6 +80,18 @@ h6 {
   padding: 0 16px;
 }
 
+@media (max-width: 1680px) {
+  .container {
+    padding: 0 150px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
 @media (max-width: 576px) {
   .container {
     padding: 0 10px;

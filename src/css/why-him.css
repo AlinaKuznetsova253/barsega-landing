@@ -13,7 +13,7 @@
 
 .why-him__title {
   font-size: 52px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   position: relative;
   margin-bottom: 30px;
@@ -71,8 +71,49 @@
   max-height: 477px;
 }
 
+.why-him__img-1-laptop,
+.why-him__img-2-laptop,
+.why-him__img-3-laptop {
+  display: none;
+}
+
 .why-him__content-mobile {
   display: none;
+}
+
+@media (max-width: 1680px) and (min-width: 1679px) {
+  .why-him__title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .why-him__title span {
+    margin-left: 335px;
+  }
+  .why-him-img {
+    transform: translateX(210%) translateY(80%);
+    max-width: 102px;
+  }
+  .why-him__image-text {
+    padding-top: 20px;
+  }
+  .why-him-text-2 {
+    padding-top: 0;
+  }
+  .why-him__img-1,
+  .why-him__img-2,
+  .why-him__img-3 {
+    display: none;
+  }
+  .why-him__img-1-laptop,
+  .why-him__img-2-laptop,
+  .why-him__img-3-laptop {
+    display: flex;
+    border-radius: 20px;
+  }
+  .why-him__img-1-laptop {
+    max-width: 185px;
+    max-height: 159px;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -185,6 +226,7 @@
   .why-him__title-mobile {
     font-size: 36px;
     font-weight: 400;
+    padding-left: 10px;
   }
   .why-him-logo-mobile {
     position: absolute;
@@ -219,6 +261,12 @@
   }
   .why-him-img-2-mobile {
     transform: scaleX(-1);
+  }
+}
+
+@media (max-width: 414px) {
+  .why-him-logo-mobile {
+    transform: translateX(200%) translateY(158%);
   }
 }
 

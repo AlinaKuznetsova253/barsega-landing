@@ -83,6 +83,12 @@
     max-width: 291px;
     max-height: 616px;
   }
+  .whatsapp-link-text,
+  .whatsapp-link-text-mobile {
+    border-bottom: 1px solid var(--footer-text);
+    display: inline-block;
+    padding-bottom: 2px;
+  }
 }
 
 @media (max-width: 576px) {

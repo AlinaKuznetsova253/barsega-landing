@@ -4,7 +4,7 @@
 
 .events__title-item {
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   color: var(--text-color-secondary);
 }
@@ -73,6 +73,7 @@
   transition:
     box-shadow 0.1s ease,
     color 0.1s ease;
+  white-space: nowrap;
 }
 
 .events__btn-item:hover {
@@ -89,6 +90,21 @@
 
 .events__content-mobile {
   display: none;
+}
+
+@media (max-width: 1680px) and (min-width: 1679px) {
+  .events__title-item {
+    font-size: 40px;
+  }
+  .events__item-title {
+    font-size: 26px;
+  }
+  .events__item-text {
+    font-size: 20px;
+  }
+  .events__btn-item {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1440px) {

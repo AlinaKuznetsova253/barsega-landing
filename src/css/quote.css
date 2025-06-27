@@ -1,5 +1,5 @@
 .quote {
-  background-image: url(../images/quote.jpg);
+  background-image: url(../images/quote.webp);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -35,9 +35,18 @@
   border-radius: 20px;
   cursor: pointer;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   padding: 15px 30px;
   margin-bottom: 150px;
+}
+
+@media (max-width: 1680px) and (min-width: 1679px) {
+  .quote__text {
+    font-size: 40px;
+  }
+  .quote__img {
+    transform: translateX(280%);
+  }
 }
 
 @media (max-width: 1440px) {
@@ -49,7 +58,7 @@
 @media (max-width: 1024px) {
   .quote {
     margin-top: 100px;
-    background-image: url(../images/quote-tablet.jpg);
+    background-image: url(../images/quote-tablet.webp);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;

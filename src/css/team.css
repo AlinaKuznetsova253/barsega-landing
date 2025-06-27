@@ -5,14 +5,13 @@
 }
 
 .title {
-  max-width: 1220px;
-  width: 100%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .title__text {
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--text-color-secondary);
 }
 
@@ -22,7 +21,7 @@
 
 .title__text-color {
   color: var(--accent-color);
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -128,6 +127,45 @@
 
 .team__list-mobile {
   display: none;
+}
+
+@media (max-width: 1680px) and (min-width: 1679px) {
+  .title__text {
+    font-size: 40px;
+  }
+  .team__photo-1 {
+    transform: translateX(102%) translateY(10%);
+    max-width: 286px;
+    max-height: 512px;
+  }
+  .team__desc-1 {
+    transform: translateX(3%) translateY(260%) rotate(5deg);
+  }
+  .team__arrow-1 {
+    transform: translateX(125%) translateY(250%) rotate(-17deg) scaleY(-1);
+  }
+  .team__photo-2 {
+    max-width: 307px;
+    max-height: 420px;
+    transform: translateX(33%) translateY(28%);
+  }
+  .team__desc-2 {
+    transform: translateX(135%) translateY(30%) rotate(-13deg);
+  }
+  .team__arrow-2 {
+    transform: translateX(155%) translateY(85%) rotate(160deg);
+  }
+  .team__photo-3 {
+    transform: translateX(-21%) translateY(23%);
+    max-width: 299px;
+    max-height: 440px;
+  }
+  .team__desc-3 {
+    transform: translateX(109%) translateY(230%) rotate(-8deg);
+  }
+  .team__arrow-3 {
+    transform: translateX(95%) translateY(260%) rotate(180deg);
+  }
 }
 
 @media (max-width: 1440px) {
