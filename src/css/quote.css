@@ -4,15 +4,17 @@
   background-position: bottom center;
   background-size: cover;
   margin-top: 150px;
+  height: 100vh;
 }
 
 .quote__info {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .quote__item {
-  min-height: 1170px;
   padding: 150px 150px 0;
   margin: 0;
   text-align: center;
@@ -43,6 +45,8 @@
   font-weight: 400;
   padding: 15px 30px;
   margin-bottom: 150px;
+  align-self: center;
+  width: auto;
 }
 
 @media (max-width: 1680px) and (min-width: 1679px) {
@@ -55,9 +59,6 @@
 }
 
 @media (max-width: 1440px) {
-  .quote__item {
-    min-height: 900px;
-  }
   .quote__img {
     transform: translateX(300%);
   }
@@ -83,7 +84,6 @@
   }
   .quote__item {
     padding: 100px 97px 0;
-    min-height: 1059px;
   }
   .quote__text-tablet {
     font-size: 30px;
