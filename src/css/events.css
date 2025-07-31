@@ -148,6 +148,7 @@
   .events__item-text-tablet {
     display: flex;
     font-size: 16px;
+    padding-right: 30px;
   }
   .events__item-arrow {
     display: none;

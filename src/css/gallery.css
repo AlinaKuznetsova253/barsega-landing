@@ -46,7 +46,7 @@
 @media (max-width: 1024px) {
   .gallery__gradient {
     width: 200px;
-    height: 288px;
+    height: 300px;
   }
   .swiper-button-right {
     display: none;
